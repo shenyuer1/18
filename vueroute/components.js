@@ -70,20 +70,20 @@ const Left=Vue.component("Left",{
     methods:{
 
     },
-    created(){
-        // fetch('./title.txt').then(function (e) {
-        //     return e.json();
-        // }).then((e)=>{
-        //     this.menu = e;
-        // })
-        // var ajax=new XMLHttpRequest();
-        // ajax.onload= ()=> {
-        //     this.menu=ajax.responseText;
-        //     console.log(this.menu);
-        // }
-        // ajax.open('get','./title.txt');
-        // ajax.send();
-    },
+    // created(){
+    //     // fetch('./title.txt').then(function (e) {
+    //     //     return e.json();
+    //     // }).then((e)=>{
+    //     //     this.menu = e;
+    //     // })
+    //     // var ajax=new XMLHttpRequest();
+    //     // ajax.onload= ()=> {
+    //     //     this.menu=ajax.responseText;
+    //     //     console.log(this.menu);
+    //     // }
+    //     // ajax.open('get','./title.txt');
+    //     // ajax.send();
+    // },
     watch:{
         $route(){
             // console.log(this.$route.hash);
