@@ -76,13 +76,13 @@ const Left=Vue.component("Left",{
         // }).then((e)=>{
         //     this.menu = e;
         // })
-        var ajax=new XMLHttpRequest();
-        ajax.onload= ()=> {
-            this.menu=ajax.responseText;
-            console.log(this.menu);
-        }
-        ajax.open('get','./title.txt');
-        ajax.send();
+        // var ajax=new XMLHttpRequest();
+        // ajax.onload= ()=> {
+        //     this.menu=ajax.responseText;
+        //     console.log(this.menu);
+        // }
+        // ajax.open('get','./title.txt');
+        // ajax.send();
     },
     watch:{
         $route(){
